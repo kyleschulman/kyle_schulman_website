@@ -7,11 +7,13 @@ body {
 h2 {
     color: black;
     text-align:center;
+    font-family: dyslexic;
 }
 
 p {
     color: black;
     text-align:center;
+    font-family: roboto;
 }
 
 table,
@@ -23,4 +25,17 @@ thead,
 tfoot {
     background-color: #333;
     color: #fff;
+}
+a:hover {
+  text-decoration-color: underline;
+  color:aquamarine;
+}
+li{
+  text-align:center;
+  font-family: times-new-roman;
+}
+hr{
+    text-align:center;
+    border: 1px solid aqua;
+    border-radius: 12px;
 }
