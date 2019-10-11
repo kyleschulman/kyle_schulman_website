@@ -28,14 +28,14 @@ tfoot {
 }
 a:hover {
   text-decoration-color: underline;
-  color:aquamarine;
+  color:MediumVioletRed;
 }
 li{
   text-align:center;
   font-family: times-new-roman;
 }
-hr{
-    text-align:center;
-    border: 1px solid #20B2AA;
-    border-radius: 12px;
+hr {
+  background: linear-gradient(-60deg, #f4d03f 0%, #16a085 100%);
+  height:2.5px;
+  border-radius:12px;
 }
