@@ -3,24 +3,53 @@
 <HEAD>
     <TITLE>Kyle Schulman Home Page</TITLE>
     <link rel="stylesheet" href="./styles/styles.css">
+    <style>
+        .dropdown {
+            position: right;
+            display: inline-block;
+            text-align: center;
+        }
 
+        .dropdown-context {
+            display: none;
+            position: absolute;
+            background-color: #80C4B7;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            padding: 12px 16px;
+            z-index: 1;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+            text-decoration: underline;
+        }
+
+    </style>
 </HEAD>
 
 <BODY>
-	<h1>Kyle Schulman: All About Me</h1>
-	<hr>
+    <h1>Kyle Schulman: All About Me</h1>
+    <hr>
     <h2><em>Look at my friend's cute dog and I!</em></h2>
 
     <center><img src="IMG_3132.jpg" alt="Kyle Schulman" width="210" height="280"></center>
     <hr>
     <h2>
-        <p>My Links</p>
-                <p><A HREF="index.html">Home</A></p>
-                <p><A HREF="background.html">Background</A></p>
-                <p><A HREF="interests.html">Interests</A></p>
-                <p><A HREF="favorites.html">Favorites</A></p>
-                <p><A HREF="schedule.html">Schedule</A></p>
-    </h2>
+
+        <center>
+            <div class="dropdown">
+
+                <h2><u><p><span>My Links</span></p></u></h2>
+                <div class="dropdown-content">
+                    <p><A HREF="index.html">Home</A></p>
+                    <p><A HREF="background.html">Background</A></p>
+                    <p><A HREF="interests.html">Interests</A></p>
+                    <p><A HREF="favorites.html">Favorites</A></p>
+                    <p><A HREF="schedule.html">Schedule</A></p>
+                </div>
+            </div>
+        </center>
     <hr>
 </BODY>
 
