@@ -46,9 +46,5 @@ hr {
 }
 span:hover{
     text-decoration: underline;
-    color:crimson;
-}
-a:hover{
-    text-decoration: underline;
-    color:crimson;
+    color:MediumVioletRed;
 }

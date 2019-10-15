@@ -1,13 +1,48 @@
-<HTML>
+<html>
 
-<HEAD>
+<head>
     <TITLE>My Interests</TITLE>
     <link rel="stylesheet" href="./styles/styles.css">
+	<style>
+		.dropdown {
+			position: right;
+			display: inline-block;
+			text-align: center;
+		}
 
-</HEAD>
+		.dropdown-content {
+			display: none;
+			position: absolute;
+			background-color: #16a085;
+			min-width: 120px;
+			box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+			padding: 12px 16px;
+			z-index: 1;
+		}
 
-<BODY>
-    <p><A HREF="index.html">Back to the Home Base!</A></p>
+		.dropdown:hover .dropdown-content {
+			display: block;
+			text-decoration: underline;
+		}
+	</style>
+</head>
+
+<body>
+    	<center>
+		<div class="dropdown">
+
+			<h1><u>
+					<p><span>Menu</span></p>
+				</u></h1>
+			<div class="dropdown-content">
+				<p><a HREF="index.html">Home</a></p>
+				<p><a HREF="background.html">Background</a></p>
+				<p><a HREF="interests.html">Interests</a></p>
+				<p><a HREF="favorites.html">Favorites</a></p>
+				<p><a HREF="schedule.html">Schedule</a></p>
+			</div>
+		</div>
+	</center>
     <hr>
     <H2>Hobbies</H2>
     <ul>
@@ -19,15 +54,7 @@
     <hr>
     <h2>I bike sometimes and I like to fly my drone and take cinematic videos.</h2>
     <hr>
-    <p>
-        <h2>My Links<p>
-                <p><A HREF="index.html">Home</A></p>
-                <p><A HREF="background.html">Background</A></p>
-                <p><A HREF="interests.html">Interests</A></p>
-                <p><A HREF="favorites.html">Favorites</A></p>
-                <p><A HREF="schedule.html">Schedule</A></p>
-        </h2>
 
-</BODY>
+</body>
 
-</HTML>
+</html>
