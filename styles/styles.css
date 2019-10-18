@@ -23,16 +23,16 @@ table,
 td {
     border: 1px solid white;
 }
-
 thead,
 tfoot {
     background-color: greenyellow;
     color: darkcyan;
+    font-size: 23
 }
 
 a:hover {
     text-decoration-color: underline;
-    color: MediumVioletRed;
+    color: greenyellow;
 }
 
 li {
@@ -48,7 +48,7 @@ hr {
 
 span:hover {
     text-decoration: underline;
-    color: MediumVioletRed;
+    color: greenyellow;
 }
 
 dt {
@@ -73,7 +73,7 @@ h1 {
 }
 
 img{
-    border-radius: 40%;
+    border-radius: 30%;
     transition: border-radius 2s;
 }
 img:hover{
